@@ -16,12 +16,12 @@ export function fahrenheitToCelius(temperature: number): number {
 export function add3(first: number, second: number, third: number): number {
     let count: number = 0;
 
-    if (first > 0) {
-        count += first;
-    }
-
     if (second > 0) {
         count += second;
+    }
+
+    if (first > 0) {
+        count += first;
     }
 
     if (third > 0) {
